@@ -1,0 +1,17 @@
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,200&family=Mochiy+Pop+One&family=Poppins:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@500;700&display=swap');
+
+
+
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+ #root {
+     background-color: #c7ecee;
+ }
+
+ body {
+     max-width: 1280px;
+     background: linear-gradient(135deg, rgba(49, 88, 82, 1) 1%, rgba(115, 206, 223, 1) 53%, rgba(145, 210, 223, 1) 40%);
+     margin: 0 auto;
+ }
