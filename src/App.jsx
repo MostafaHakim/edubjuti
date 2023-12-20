@@ -8,6 +8,8 @@ import Gallery from "./pages/Gallery"
 import Services from "./pages/Services"
 import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
+import SingleCourse from "./components/SingleCourse"
+
 
 function App() {
 
@@ -15,13 +17,14 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/edubjuti" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/courses" element={<AllCourses />} />
         <Route path="/results" element={<Results />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/courses/:id" element={<SingleCourse />} />
       </Routes>
       <Footer />
     </>

@@ -1,8 +1,14 @@
+import SectionTwoHero from "../components/SectionTwoHero";
+
+
+
+
+
 const AllCourses = () => {
     return (
         <>
-            <h1 className="text-3xl font-roboto pt-40 text-center">This is Course List Page</h1>
-            <p className="font-poppins text-xl pt-4 pb-40 text-center">Page is under Constraction</p>
+            <h2 className="text-3xl font-roboto pt-8 text-center">আমাদের কোর্স সমূহ</h2>
+            <SectionTwoHero more="more >>" />
         </>
     );
 }
